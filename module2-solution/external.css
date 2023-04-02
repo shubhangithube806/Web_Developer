@@ -1,0 +1,50 @@
+.grandparent{
+  border: 2px solid black;
+  width: 100vw; height: 100vh;
+  background: #dfe6e9;
+  text-align: center;
+}
+.container {
+    color: black;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
+.item {
+    text-align: left;
+    padding: 10px;
+    margin: 10px;
+    height: 150px;
+    border: 2px solid black;
+    background-color: #686868;
+    flex: 1;
+    position: relative;
+    min-width: 200px;
+}
+@media all and(min-width= 720px){
+    .container{
+      flex: 1;
+    }
+}   
+
+.main_heading {
+  text-align: center;
+  font-size: 3rem;
+  padding: 20px;
+  font-family: Georgia;
+}
+
+
+.cake_name_st { 
+  text-align: center;
+    border: 0px solid black;
+    border-bottom-width: 2px;
+    border-left-width: 2px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0 0;
+}
