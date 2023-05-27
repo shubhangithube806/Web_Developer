@@ -9,7 +9,7 @@
     </a>
   </div>
   <div class="col-md-4 col-sm-6 col-xs-12">
-    <a href="#" onclick="$dc.loadMenuItems(short_name());">
+    <a href="#" onclick="$dc.loadMenuItems('L');">
       <div id="specials-tile"><span>specials</span></div>
     </a>
   </div>
@@ -22,12 +22,3 @@
     </a>
   </div>
 </div><!-- End of #home-tiles -->
-
-<script>
-  function short_name() {
-    // Replace this array with your actual list of category short_names
-    var categoryShortNames = ['SP', 'CA', 'DE', 'AP'];
-    var randomIndex = Math.floor(Math.random() * categoryShortNames.length);
-    return categoryShortNames[randomIndex];
-  }
-</script>
